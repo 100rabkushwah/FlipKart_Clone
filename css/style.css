@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+
+    background: #2874f0;
+    font-family: 'Lato', sans-serif;
+ 
+}
+
+nav{
+    display: flex;
+}
+
+
+
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 5px 0 20px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-weight:bolder;
+}
+
+
+.logo{
+    margin: 10px 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+
+.logo img{
+    width: 80px;
+    margin: 0 0 0 auto;
+}
+
+
+.explore{
+    margin: 0px 0px 0px 40px;
+    color: white;
+}
+
+.explore a{
+    /* margin: 0px 0px 0px 15px; */
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.explore a:hover{
+    /* margin: 0px 0px 0px 15px; */
+    font-weight: bolder;
+}
+
+.explore span{
+    margin-left: 5px;
+    font-style: italic;
+}
+
+.img{
+    width: 80px;
+    padding: 0 5px 0 50px;
+}
+
+.search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0 0 8px;
+}
+
+.inputwidth{
+    width: 400px;
+    height: 28px;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-size: 17px;
+}
+
+.explore{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+
+}
+
+
+/* yeha se main ki style start hai */
+.container{
+    min-height: calc(100vh - 60px - 10vh);
+}
+
+.slider{
+display: flex;
+align-items: center;
+justify-content: center;
+
+/* for center you can also do this lekin dono  me se kisi ek ki chunna hoga
+
+margin: auto;
+width: 80vh; */
+}
+
+.slider img{
+    margin-top: 10px;
+   
+}
+
+.card{
+    
+    /* background-color: rgb(4, 253, 253); */
+    box-shadow: 1px 1px 15px 1px rgb(164, 177, 180);
+    max-width: 91vw;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.card h2{
+    padding: 0 0 0 10px;
+    
+}
+
+.card-item{
+    /* background-color: cadetblue; */
+    width: 15%;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 0;
+    margin: 0 9px;
+}
+
+
+
+
+
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
